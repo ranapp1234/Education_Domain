@@ -1,0 +1,54 @@
+body {
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  font-family: "Josefin Slab", Arial, sans-serif;
+  font-size: 13px;
+}
+body h3 {
+  margin-left: 410px;
+  color: #92a5de;
+  font: bold 40px Sans-Serif;
+  
+}
+.bmenu {
+  padding: 50px 30px;
+  margin-left: 400px;
+  position: relative;
+  background: rgba(20, 0, 0, 0.5);
+  width: 500px;
+  height: 300px;
+}
+.bmenu:hover{
+  border-radius: 50%;
+  background-color:rgba(20, 0, 0, 0.2);
+  border: 0px solid white;
+}
+
+.bmenu li:hover {
+  background:rgb(192, 187, 187);
+  border-radius: 12px  ;
+}
+.bmenu li {
+  font-size: 35px;
+  display: block;
+  line-height: 66px;
+}
+
+.bmenu li a {
+  white-space: nowrap;
+  color: transparent;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 3px #fff;
+  letter-spacing: 1px;
+}
+ul li a {
+
+  text-decoration: none;
+}
+
+
+
+
+

@@ -1,0 +1,130 @@
+/* @import url("reset.css"); */
+
+body {
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  font-family: "Josefin Slab", Arial, sans-serif;
+  font-size: 13px;
+
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Header Style */
+#navbar {
+  position: sticky;
+  background: #757d97;
+}
+
+ul {
+  display: flex;
+  margin-top: 1rem;
+  padding: 1px 30px;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+ul li {
+  padding: 12px 5px;
+}
+
+ul li:hover {
+  background-color: #ea6060;
+}
+
+/* Main Content Styles */
+.container {
+  display: block;
+  height: 70vh;
+  margin-top: 7rem;
+  margin-left: 24rem;
+}
+
+.mainContent {
+  float: left;
+  width: 35vw;
+  height: 70vh;
+}
+
+.topContent {
+  height: 47.3%;
+  background-color: white;
+}
+
+.bottomContent {
+  height: 47.3%;
+  margin-top: 1.5rem;
+  background-color: white;
+}
+
+header h2 {
+  margin: 1px 7px;
+  padding: 16px 1px;
+}
+
+.topContent h2>a,
+.bottomContent h2>a {
+  padding-left: -1rem;
+  margin: 1.7rem;
+  margin-top: -3rem;
+  text-align: start;
+  color: rgb(135, 12, 12);
+}
+
+.topContent p,
+.bottomContent p {
+  color: black;
+  padding-left: 2.3rem;
+}
+
+/*aside*/
+.container2 {
+  float: right;
+  width: 14vw;
+  height: 70vh;
+}
+
+.top-sidebar h2,
+.bottom-sidebar h2,
+.middle-sidebar h2 {
+  padding: 8px;
+  color: black;
+}
+
+.top-sidebar p,
+.middle-sidebar p,
+.bottom-sidebar p {
+  padding: 9px;
+  margin-top: -1rem;
+  color: black;
+}
+
+.top-sidebar {
+  background-color: white;
+  height: 18vh;
+  margin-top: -1rem;
+}
+
+.middle-sidebar {
+  background-color: white;
+  height: 18vh;
+  margin-top: 1.8rem;
+}
+
+.bottom-sidebar {
+  background-color: white;
+  height: 18vh;
+  margin-top: 1.8rem;
+}
+
+/* main footer */
+
+.mainFooter {
+  margin-top: 0.1rem;
+  padding: 1px 0px;
+  background-color: #757d97;
+  text-align: center;
+}

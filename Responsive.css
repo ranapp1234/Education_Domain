@@ -1,0 +1,24 @@
+ @media screen and (min-width: 900px) {
+ 	body {
+ 		max-width: 48.24rem;
+ 		margin-left: 14rem;
+ 		margin-right: 14rem;
+ 	}
+
+ 	header {
+ 		height: 4em;
+ 	}
+
+ 	.mainContent {
+ 		float: left;
+ 		margin-left: -24rem;
+ 	}
+
+ 	.container2 {
+ 		float: right;
+ 	}
+
+ 	footer {
+ 		width: auto !important;
+ 	}
+ }

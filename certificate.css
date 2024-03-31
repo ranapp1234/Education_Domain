@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Diplomata&display=swap");
+
+.diplomata-regular {
+  font-family: "Diplomata", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+#heading {
+  font-family: "Diplomata", serif;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+#container {
+  width: 28%;
+  height: 63%;
+  margin: 10% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(247, 246, 246, 0.2);
+  border: 3px solid rgba(217, 216, 216, 0.8);
+}
+
+.certificate {
+  margin-top: 0.1rem;
+  margin-left: -0.5rem;
+  padding-top: 0.7rem;
+  height: 25rem;
+  width: 25rem;
+  background-color: #ffffff;
+  border: 2px solid black;
+  align-items: center;
+  text-align: center;
+}
+.certificate:hover {
+  transform: scale(1.5);
+  transition: all 2s ease-in-out;
+  height: 600px;
+  width: 500px;
+  
+}
